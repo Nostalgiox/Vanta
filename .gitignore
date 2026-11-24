@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# Executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

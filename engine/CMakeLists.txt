@@ -13,6 +13,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(vanta-engine
     src/main.cpp
+    src/steam/VdfParser.cpp
+    src/steam/SteamScanner.cpp
 )
 
 target_include_directories(vanta-engine
